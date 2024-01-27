@@ -54,19 +54,20 @@
 
 figure {
     width: 150px;
-    height: 150px;
+    height: 150px;;
+}
+
+figure :hover {
+    cursor: zoom-in;
 }
 
 #portrait {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-top: 10px;
     border-radius: 50%;
     box-shadow: 0 0 10px #dbc2a4; 
-}
-
-figure :hover {
-    cursor: zoom-in;
 }
 
 #pdp :active {
